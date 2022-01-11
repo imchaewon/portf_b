@@ -1499,6 +1499,7 @@
 				for(item of Object.keys(data)){
 					console.log(data[item]);
 					for(i=0;i<data[item].length;i++){
+						console.log($("#"+item+" .mainSl .swiper-slide").eq(i));
 						$("#"+item+" .mainSl .swiper-slide").eq(i)
 						.find(".image").html("<img src='" + data[item][i].url + "'>");
 					}
