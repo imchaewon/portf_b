@@ -1562,12 +1562,12 @@
 			type: 'GET',
 			dataType: 'json',
 			success: function(data){
-				data.forEach(function(){
-					console.log(item);
-					console.log(index);
-					console.log(data.imgs_jsp[index]);
-				});
-				$("#jsp .mainSl .swiper-slide").eq()
+				for(i=0;i<data;i++){
+					console.log(i);
+					console.log(data.imgs_jsp[i]);
+					$("#jsp .mainSl .swiper-slide").eq(i)
+					.image.html("<img src='data.imgs_jsp[i]'>");
+				}
 			},
 			error : function(a, b, c) {
 				console.log(a, b, c);
