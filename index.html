@@ -1493,19 +1493,19 @@
 			type: 'GET',
 			dataType: 'json',
 			success: function(data){
-				for(item of Object.keys(data)){
+				var arr = Object.keys(data); // 객체 배열화
+				for(item of arr){
 					//console.log(data[item]);
 					for(i=0;i<data[item].length;i++){
-						$("#"+item+" .mainSl .swiper-slide").eq(i)
+						$("#" + item + " .mainSl .swiper-slide").eq(i)
 						.find(".image").html("<img src='" + data[item][i].url + "'>");
 					}
 					//$("#" + item + " .tile_holder .swiper-container .image").niceScroll();
 				}
 				setTimeout(function(){
-					console.log(data)
-					$("#jsp .tile_holder .swiper-container .image").niceScroll();
-					$("#oracle .tile_holder .swiper-container .image").niceScroll();
-					$("#java .tile_holder .swiper-container .image").niceScroll();
+					for(item of arr){
+						$("#" + item + " .mainSl .swiper-slide .image").niceScroll();
+					}
 				},100);
 			},
 			error : function(a, b, c) {
