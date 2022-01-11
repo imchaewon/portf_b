@@ -1,0 +1,34 @@
+{
+	"imgs_jsp":[
+		{"url":"images/1.%20매물관리목록(r).png"},
+		{"url":"images/1.%20매물관리목록.png"},
+		{"url":"images/2.%20매물관리상세.png"},
+		{"url":"images/3.%20매물관리삭제.png"},
+		{"url":"images/4.%20매물관리삭제후(r).png"},
+		{"url":"images/4.%20매물관리삭제후.png"},
+		{"url":"images/관리자_사용자-1-1.png"},
+		{"url":"images/관리자_사용자-1-2.png"},
+		{"url":"images/관리자_사용자-2-1.png"},
+		{"url":"images/관리자_사용자-2-2.png"},
+		{"url":"images/관리자_사용자-3-1.png"},
+		{"url":"images/관리자_사용자-3-2.png"},
+		{"url":"images/관리자_사이트환경설정.png"},
+		{"url":"images/관리자_운영정책-2.png"},
+		{"url":"images/관리자_운영정책-3.png"},
+		{"url":"images/관리자_운영정책.png"},
+		{"url":"images/관리자진입.png"},
+		{"url":"images/방관리.png"},
+		{"url":"images/방상세페이지.png"},
+		{"url":"images/업체승인.png"},
+		{"url":"images/후기삭제요청.png"},
+		{"url":"images/후기삭제요청2.png"},
+		{"url":"images/희망입주조건관리.png"}
+	],
+	"imgs_ai":[
+		{"title":"click","url":"images/ai/work47.jpg"},
+		{"title":"click","url":"images/ai/work48.jpg"}
+	]
+}
+
+
+
