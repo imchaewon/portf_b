@@ -1569,7 +1569,7 @@
 					console.log(i);
 					console.log(data.imgs_jsp[i]);
 					$("#jsp .mainSl .swiper-slide").eq(i)
-					.image.html("<img src='data.imgs_jsp[i]'>");
+					.find(".image").html("<img src='data.imgs_jsp[i]'>");
 				}
 			},
 			error : function(a, b, c) {
