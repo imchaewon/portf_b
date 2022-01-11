@@ -1499,10 +1499,13 @@
 						$("#"+item+" .mainSl .swiper-slide").eq(i)
 						.find(".image").html("<img src='" + data[item][i].url + "'>");
 					}
-					setTimeout(function(){
-						$("#" + item + " .tile_holder .swiper-container .image").niceScroll();
-					},100)
+					//$("#" + item + " .tile_holder .swiper-container .image").niceScroll();
 				}
+				setTimeout(function(){
+					$("#jsp .tile_holder .swiper-container .image").niceScroll();
+					$("#oracle .tile_holder .swiper-container .image").niceScroll();
+					$("#java .tile_holder .swiper-container .image").niceScroll();
+				},100);
 			},
 			error : function(a, b, c) {
 				console.log(a, b, c);
