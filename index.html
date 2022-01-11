@@ -1437,9 +1437,6 @@
 	$(document).ready(function(){
 		$("html").niceScroll();
 		$("#jsp #scroll").niceScroll();
-		$("#jsp .tile_holder .swiper-container .image").niceScroll();
-		$("#oracle .tile_holder .swiper-container .image").niceScroll();
-		$("#java .tile_holder .swiper-container .image").niceScroll();
 	});
 
 	$(window).on("load",function(){
@@ -1502,6 +1499,7 @@
 						$("#"+item+" .mainSl .swiper-slide").eq(i)
 						.find(".image").html("<img src='" + data[item][i].url + "'>");
 					}
+					$("#" + item + " .tile_holder .swiper-container .image").niceScroll();
 				}
 			},
 			error : function(a, b, c) {
