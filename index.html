@@ -1562,9 +1562,12 @@
 			type: 'GET',
 			dataType: 'json',
 			success: function(data){
-				console.log(data);
-				console.log(data.imgs_jsp);
-				$("#jsp .mainSl")
+				data.forEach(function(){
+					console.log(item);
+					console.log(index);
+					console.log(data.imgs_jsp[index]);
+				});
+				$("#jsp .mainSl .swiper-slide").eq()
 			},
 			error : function(a, b, c) {
 				console.log(a, b, c);
