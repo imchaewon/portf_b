@@ -73,7 +73,7 @@ body.ready #preload{z-index:-1000;}
 body.ready #preload .throbber>div{-moz-animation:initial;-webkit-animation:initial;animation:initial}
 
 
-/*»ó´Ü gnb*/
+/*ï¿½ï¿½ï¿½ gnb*/
 header{pointer-events:none}
 header.on{pointer-events:all;}
 .nav{max-width:1600px;width:100%;margin:0 auto;position:relative;}
@@ -137,10 +137,10 @@ header:not(.on) .liWrap{transition-duration:2s;}
 .nav_work ul li a:focus:before,
 .nav_work ul li a:hover:before{transform:scale3d(1.2, 1.2, 1.2);}
 .nav_work ul li a:active:before{transform:scale3d(1.1, 1.1, 1.1);}
-/*»ó´Ü gnb ³¡*/
+/*ï¿½ï¿½ï¿½ gnb ï¿½ï¿½*/
 
 
-/*¸Þ´º ·¹ÀÌ¾î ¹öÆ°*/
+/*ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½Æ°*/
 .btnMenu{opacity:0;pointer-events:none;position:fixed;right:1em;top:1em;z-index:9999;width:3.125rem;height:3.125rem;overflow:hidden;transition-duration:500ms;transition-property:all;transition-timing-function:cubic-bezier(0.7, 1, 0.7, 1);}
 .btnMenu.show{opacity:1;pointer-events:all;}
 .btnMenu .icon{position:absolute;top:50%;left:50%;right:auto;bottom:auto;width:1.375rem;height:0.0625rem;background:#fff;-webkit-transform:translate3d(-50%, -50%, 0);transform:translate3d(-50%, -50%, 0);transition-duration:500ms;transition-property:all;transition-timing-function:cubic-bezier(0.7, 1, 0.7, 1);box-shadow:1px 1px #000;}
@@ -158,10 +158,10 @@ header:not(.on) .liWrap{transition-duration:2s;}
 .btnMenu.on .icon:before{-webkit-transform:rotate(45deg);transform:rotate(45deg);}
 .btnMenu.on .icon:after{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);}
 .btnMenu.on circle{stroke-dashoffset:0;-webkit-transition:stroke-dashoffset 0.4s 0.3s;transition:stroke-dashoffset 0.4s 0.3s;}
-/*¸Þ´º ·¹ÀÌ¾î ¹öÆ° ³¡*/
+/*ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½*/
 
 
-/*¸Þ´º ·¹ÀÌ¾î*/
+/*ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½*/
 .layer_menu{position:fixed;top:0;left:0;z-index:999;width:100%;height:100%;background:rgba(34, 35, 36, 0);opacity:0;pointer-events:none;-webkit-transition:all .7s ease-in;transition:all .7s ease-in;}
 .layer_menu.on{background:rgba(34, 35, 36, 0.99);opacity:1;pointer-events:all;}
 
@@ -208,10 +208,10 @@ header:not(.on) .liWrap{transition-duration:2s;}
 @media (max-width:47.9em){
 	.layer_menu.on .con ul li{opacity: 1;}
 }
-/*¸Þ´º ·¹ÀÌ¾î ³¡*/
+/*ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½*/
 
 
-/*¸ÞÀÎ ¿µ¿ª*/
+/*ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½*/
 .sctMain{position:relative;z-index:10;overflow:hidden;background:rgba(0,0,0,.65);height:100vh;}
 .sctMain .main_title{position:absolute;left:0;top:0;width:100%;height:100%;color:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column;}
 .sctMain .main_title h1{font-family:Bogart, Arial, sans-serif;font-size:1.5em;letter-spacing:-1.5px;line-height:110%;margin:0;transition:all 0.2s ease-in-out;margin-bottom:.8em;color:#fff;background:linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
@@ -221,7 +221,7 @@ header:not(.on) .liWrap{transition-duration:2s;}
 .sctMain .btnNext{position:absolute;bottom:110px;left:50%;margin-left:-10px;width:21px;height:29px;background:url(../images/arrow-down.png) no-repeat center center;padding:1em;-webkit-animation:bounce-fade 1.2s infinite; /* Safari 4+ */-moz-animation:bounce-fade 1.2s infinite; /* Fx 5+ */-o-animation:bounce-fade 1.2s infinite; /* Opera 12+ */animation:bounce-fade 1.2s infinite; /* IE 10+ */;cursor:pointer}
 @media(min-width:1000px){.sctMain .main_title h1{font-size:2.5em;}.sctMain .main_title p{font-size:1em;}}
 @media(min-width:1600px){.sctMain .main_title h1{font-size:4.5em;letter-spacing:-3px;}.sctMain .main_title p{font-size:2em;}}
-/*¸ÞÀÎ ¿µ¿ª ³¡*/
+/*ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½*/
 
 
 #about {background:#ddd;overflow:hidden;position:relative;color:#7A7A7A;}
@@ -229,14 +229,14 @@ header:not(.on) .liWrap{transition-duration:2s;}
 #about p > code {color:#2B2B2B;background:#fff;margin-left:2px;margin-right:2px;padding-left:2px;padding-right:2px;border-radius:2px;}
 #about .wrap{width:96%;max-width:1200px;margin:auto;}
 #about .wrap > div{padding:2em 3em 3em;}
-#about .left{width:30%;float:left;font-family:Lato, Arial, sans-serif;}
+#about .left{width:25%;float:left;font-family:Lato, Arial, sans-serif;}
 #about .left p{line-height:1.5em;}
 #about .left .image {position:relative;width:120px;height:120px;border-radius:100%;background:url(../images/profile.jpg)no-repeat 0/cover;}
 #about .left .txt p:nth-of-type(1){font-size:1.4em;font-weight:bold;padding-top:1em;}
 #about .left .txt p:nth-of-type(1):after{content:"";display:block;width:1em;border-top:.1em solid #7A7A7A;margin:.5em 0;}
-#about .right{width:70%;float:right;position:relative;}
+#about .right{width:75%;float:right;position:relative;}
 #about .right:before{content: "";position: absolute;left: 0;top: 0;right: -9999px;bottom: 0;background:#f0f0f0;}
-#about .right .con{position:relative;z-index:10;padding:0 1em;}
+#about .right .con{position:relative;z-index:10;padding-right:1em;}
 #about .right .con p{word-break:keep-all;line-height:1.6em;}
 
 
@@ -344,7 +344,7 @@ header:not(.on) .liWrap{transition-duration:2s;}
 
 
 
-/*ÇÏ´Ü ¿µ¿ª*/
+/*ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½*/
 .footer,.footer_content{position:relative;z-index:10;}
 .footer_content{max-width:90%;margin:0 auto;padding:5em 0;}
 @media(min-width:992px){.footer_content{padding:14em 0;max-width:790px;}}
@@ -388,15 +388,15 @@ header:not(.on) .liWrap{transition-duration:2s;}
 .tile-hs h2,.tile-hs span{color:#232320;}
 .tile-hh{background:linear-gradient(6.03deg,#dacdff .5%,rgba(218,205,255,0) 46.89%),#ffeaee;}
 .tile-hhh{background:linear-gradient(338.83deg, #000 .5%,#dacdff 46.89%),#ffeaee;}
-/*ÇÏ´Ü ¿µ¿ª ³¡*/
+/*ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½*/
 
 
-/* ÆäÀÌÁöÀÌµ¿ ¹öÆ° */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½Æ° */
 .navigation-buttons{position:fixed;right:1em;bottom:1em;z-index:99;}
 .navigation-buttons span{width:30px;height:30px;margin-top:6px;border-radius:3px;display:block;cursor:pointer}
 .navigation-buttons span.prev{background:#222 url(../images/ico_prev.png) no-repeat 5px 5px;}
 .navigation-buttons span.next{background:#222 url(../images/ico_next.png) no-repeat 5px 5px;}
-/* ÆäÀÌÁöÀÌµ¿ ¹öÆ° ³¡*/
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½Æ° ï¿½ï¿½*/
 
 
 
